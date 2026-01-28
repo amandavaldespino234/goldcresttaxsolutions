@@ -56,3 +56,175 @@
       font-size: 1.25rem;
       color: #ccc;
       max-width: 700px;
+      margin: auto;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .section {
+      margin-bottom: 70px;
+      position: relative;
+    }
+
+    .section::before {
+      content: "";
+      width: 60px;
+      height: 2px;
+      background: var(--gold);
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 15px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #0e0e0e, #060606);
+      border: 1px solid rgba(212,175,55,0.15);
+      padding: 30px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    ul li::before {
+      content: "◆";
+      color: var(--gold);
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      background: linear-gradient(135deg, var(--gold), #b8962e);
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 30px;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      background: #000;
+      border-top: 1px solid rgba(212,175,55,0.2);
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="Gold Crest Tax Solutions Logo.png" alt="Gold Crest Tax Solutions Logo">
+  <h1>Gold Crest Tax Solutions</h1>
+  <p class="slogan">
+    Where Precision Meets Prosperity.<br>
+    Refined tax and business solutions for modern professionals.
+  </p>
+  <a href="#contact" class="cta">Request a Consultation</a>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Our Philosophy</h2>
+    <p>
+      At Gold Crest Tax Solutions, we blend meticulous accuracy with strategic insight.
+      Our approach is rooted in compliance, clarity, and thoughtful planning designed
+      to support both personal and business success.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Tax Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <ul>
+          <li>Personal Tax Preparation</li>
+          <li>Small Business Tax Preparation</li>
+          <li>Tax Planning & Strategy</li>
+          <li>IRS-Compliant Filing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Business Management & Compliance</h2>
+    <div class="card-grid">
+      <div class="card">
+        <ul>
+          <li>Entity Formation & Structuring</li>
+          <li>Business Management Strategies</li>
+          <li>Bookkeeping (Monthly or Quarterly – QuickBooks)</li>
+          <li>Payroll Management & Payroll Tax Filing</li>
+          <li>Forms 1096 / 1099 Filing</li>
+          <li>Business Planning, Reporting & Advisory</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Education & Courses</h2>
+    <p>
+      We offer business and tax courses designed to empower entrepreneurs
+      with practical knowledge, strategic insight, and long-term confidence.
+    </p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>
+      Begin your journey with a firm that values accuracy, efficiency, and growth.
+    </p>
+    <p>
+      📧 <strong>goldcresttaxsolutions@gmail.com</strong><br>
+      📍 Serving clients nationwide
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Gold Crest Tax Solutions · All Rights Reserved<br>
+  This website is for informational purposes only and does not constitute tax or legal advice.
+</footer>
+
+</body>
+</html>
