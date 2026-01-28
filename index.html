@@ -1,38 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gold Crest Tax Solutions</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0B0B0B;
-      color: #FFFFFF;
-      text-align: center;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #000;
+      color: #f5f5f5;
+      line-height: 1.6;
     }
+
     header {
-      padding: 80px 20px;
+      background: linear-gradient(to bottom, #000, #111);
+      text-align: center;
+      padding: 60px 20px;
     }
+
+    header img {
+      max-width: 220px;
+      margin-bottom: 20px;
+    }
+
     h1 {
-      color: #C9A24D;
-      font-size: 3rem;
+      color: #d4af37;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
-    p {
+
+    h2 {
+      color: #d4af37;
+      margin-top: 40px;
+    }
+
+    .slogan {
       font-size: 1.2rem;
-      max-width: 600px;
-      margin: 20px auto;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔";
+      color: #d4af37;
+      margin-right: 10px;
+    }
+
+    footer {
+      background: #000;
+      border-top: 1px solid #222;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .cta {
+      background: #d4af37;
+      color: #000;
+      padding: 15px 25px;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cta:hover {
+      background: #b8962e;
     }
   </style>
 </head>
+
 <body>
 
 <header>
+  <img src="Gold Crest Tax Solutions Logo.png" alt="Gold Crest Tax Solutions Logo">
   <h1>Gold Crest Tax Solutions</h1>
-  <p>Professional tax services you can trust.</p>
-  <p>Book consultations. Upload documents. Request quotes.</p>
+  <p class="slogan">Precision. Compliance. Growth.<br>Accurate and efficient tax & business solutions you can trust.</p>
+  <a href="#contact" class="cta">Schedule a Consultation</a>
 </header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Who We Serve</h2>
+    <p>
+      Gold Crest Tax Solutions provides professional tax and business services for
+      individuals, entrepreneurs, and small business owners seeking accuracy,
+      compliance, and long-term growth.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Tax Services</h2>
+    <ul>
+      <li>Personal Tax Preparation</li>
+      <li>Small Business Tax Preparation</li>
+      <li>Tax Planning & Strategy</li>
+      <li>IRS-Compliant Filing & Documentation</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Business Services</h2>
+    <ul>
+      <li>Entity Formation (LLC, S-Corp, C-Corp)</li>
+      <li>Business Management Strategies & Practices</li>
+      <li>Bookkeeping (Monthly or Quarterly – QuickBooks)</li>
+      <li>Payroll Management & Payroll Tax Filing</li>
+      <li>Forms 1096 / 1099 Filing for Employees & Contractors</li>
+      <li>Business Planning, Reporting & Advisory Services</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Education & Training</h2>
+    <ul>
+      <li>Business & Tax Courses Available</li>
+      <li>Educational Guidance for Business Owners</li>
+      <li>Practical Knowledge to Support Long-Term Success</li>
+    </ul>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Ready to take control of your taxes and business finances?
+      Contact Gold Crest Tax Solutions to schedule a consultation.
+    </p>
+    <p>
+      📧 Email: <strong>goldcresttaxsolutions@gmail.com</strong><br>
+      📍 Serving clients nationwide
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Gold Crest Tax Solutions. All Rights Reserved.<br>
+  This site is for informational purposes only and does not constitute legal or tax advice.
+</footer>
 
 </body>
 </html>
+
